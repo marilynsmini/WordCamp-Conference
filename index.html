@@ -6,10 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+	<title>WordCamp San Antonio</title>
+	<link href="stylesheet.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+<style>
+.jumbotron-fluid {
+background-image: url("WordPress_blue_logo.svg.png");
 
-    <title>WordCamp San Antonio</title>
-  </head>
+}
+</style>
+
+	</head>
   <body id="home" data-spy="scroll" data-target=".navbar">
 <!-- navbar -->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #ffffff;">
@@ -38,13 +46,14 @@
 </nav>	  
 <!-- /navbar -->
 <!-- jumbotron -->
-<div class="jumbotron jumbotron-fluid bg-light">
+<div class="jumbotron jumbotron-fluid">
   <div class="container text-sm-center pt-5">
-    <h1 class="display-4">WordCamp San Antonio</h1>
-    <p class="lead">A One-Day Conference About WordPress</p>
+    <h1 class="display-4 shadow-sm p-3 mb-5 bg-white rounded w-75 p-3 mx-auto border border-warning">WordCamp San Antonio</h1>
+    <p class="lead shadow-sm p-3 mb-5 bg-white rounded w-50 p-3 mx-auto border border-warning">A One-Day Conference About WordPress</p>
 	  <div class="mt-5">
-  <button type="button" class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#register">Register Now</button>
-  <a class="btn btn-light btn-lg" href="#speakers">See Speakers</a>
+  <button type="button" class="btn btn-secondary btn-lg border border-warning" data-toggle="modal" data-target="#register">Register Now</button>
+  <a class="btn btn-light btn-lg border border-warning" href="#speakers">See Speakers</a>
+  <a class="btn btn-light btn-lg border border-warning" href="#schedule">See Schedule</a>
 </div>
   </div>
 </div>
@@ -53,22 +62,22 @@
 <!-- about -->
   <div class="row">
     <div class="col-lg order-lg-2">
-      1 of 3: About WordCamp
-<h3 id="about" class="mb-4">About WordCamp</h3>
+      
+<h3 id="about" class="mb-4 border border-warning text-center">About WordCamp</h3>
 <img class="img-fluid rounded" src="SanAntonio.jpg" alt="Photo of San Antonio with the words San Antonio, Texas printed  across">
 <p>The beautiful city of San Antonio, TX will be the host city for WordCamp!</p>
 <p>Explore the future of WordPress with a lineup of industry professionals. Discover new techniques to advance your career as a web designer.</p>
     </div>
     <div class="col-lg order-lg-1">
-      2 of 3: Expert Speakers
-<h3 class="mb-4">Expert Speakers</h3>
+      
+<h3 class="mb-4 border border-warning text-center">Expert Speakers</h3>
 <p>Our expert speaker lineup was just announced, so don't wait too long before grabbing your tickets!</p>
 <p>Want to meet the international WordPress community and share skills with some of the world's top experts and makers? Be the first to know what to expect for the future of WordPress.</p>
 <p>WordCamp is committed to being inclusive and welcoming for everyone. We look forward to another intensive day of learning and sharing.</p>
     </div>
     <div class="col-lg order-lg-3">
-      3 of 3: Topics
-<h3 class="mb-4">What You'll Learn</h3>
+      
+<h3 class="mb-4 border border-warning mx-auto text-center">What You'll Learn</h3>
 <div class="list-group">
   <a href="#" class="list-group-item list-group-item-action"><strong>WordPress 5</strong>: New Gutenberg editor</a>
   <a href="#" class="list-group-item list-group-item-action"><strong>WooCommerce</strong>: E-commerce platform</a>
@@ -82,11 +91,11 @@
   <!-- /about -->  
 
 <!-- speakers -->
-<h2 id="speakers" class="display-4 text-center my-5 text-muted">Speakers</h2>
+<h2 id="speakers" class="display-4 text-center my-5 text-muted border border-warning">Speakers</h2>
 <div class="row">
   <div class="col-md-6 col-lg-4">
 <div class="card mb-3">
-  <img class="card-img-top" src="Kathy.png" alt="Kathy Chang">
+  <img class="card-img-top rounded-top" src="Kathy.png" alt="Kathy Chang">
   <div class="card-body">
     <h4 class="card-title">Kathy Chang</h4>
     <p class="card-text">Kathy is Head of Product Development and brings several years of experience with her to WordPress.</p>
@@ -95,7 +104,7 @@
   </div>
   <div class="col-md-6 col-lg-4">
 	<div class="card mb-3">
-  <img class="card-img-top" src="Daniel.png" alt="Daniel Carlos">
+  <img class="card-img-top rounded-top" src="Daniel.png" alt="Daniel Carlos">
   <div class="card-body">
     <h4 class="card-title">Daniel Carlos</h4>
     <p class="card-text">Daniel is Head of Marketing and gets our name out there. He consistently looks for additional opportunities to show off our amazing offerings!</p>
@@ -104,7 +113,7 @@
   </div>
   <div class="col-md-6 col-lg-4">
 <div class="card mb-3">
-  <img class="card-img-top" src="Steven.png" alt="Steven Stevenson">
+  <img class="card-img-top rounded-top" src="Steven.png" alt="Steven Stevenson">
   <div class="card-body">
     <h4 class="card-title">Steven Stevenson</h4>
     <p class="card-text">Steven works behind the scenes and helps ensure a seamless experience for all WordPress users.</p>
@@ -113,7 +122,7 @@
   </div>
   <div class="col-md-6 col-lg-4">
 <div class="card mb-3">
-  <img class="card-img-top" src="James.png" alt="James Forrest">
+  <img class="card-img-top rounded-top" src="James.png" alt="James Forrest">
   <div class="card-body">
     <h4 class="card-title">James Forrest</h4>
     <p class="card-text">James helps connect user feedback with the appropriate WordPress team to prioritize upcoming features.</p>
@@ -122,7 +131,7 @@
   </div>
   <div class="col-md-6 col-lg-4">
 <div class="card mb-3">
-  <img class="card-img-top" src="Susan.png" alt="Susan McPherson">
+  <img class="card-img-top rounded-top" src="Susan.png" alt="Susan McPherson">
   <div class="card-body">
     <h4 class="card-title">Susan McPherson</h4>
     <p class="card-text">Susan is an avid blogger and began using WordPress as a user. She was so impressed with WordPress, she became a full-time team member.</p>
@@ -131,7 +140,7 @@
   </div>
   <div class="col-md-6 col-lg-4">
 <div class="card mb-3">
-  <img class="card-img-top" src="Laura.png" alt="Laura Salas">
+  <img class="card-img-top rounded-top" src="Laura.png" alt="Laura Salas">
   <div class="card-body">
     <h4 class="card-title">Laura Salas</h4>
     <p class="card-text">Laura is a small-business owner and while we’ve tried to recruit her to the team, she just won’t join us. She has plenty of experience using WordPress for her business and has many successes to share.</p>
@@ -142,9 +151,9 @@
 <!-- /speakers -->
 
 <!-- schedule -->
-<h2 id="schedule" class="display-4 text-center my-5 text-muted">Schedule</h2>
+<h2 id="schedule" class="display-4 text-center my-5 text-muted border border-warning">Schedule</h2>
 <ul class="list-group">
-  <li class="list-group-item">
+  <li class="list-group-item bg-light text-dark">
     <div class="d-flex justify-content-between">
       <h5 class="mb-1">Keynote: WordPress 5.0</h5>
       <span class="badge badge-pill badge-secondary p-2">9:00am</span>
@@ -158,7 +167,7 @@
     </div>
     <p class="mb-1">Daniel Carlos</p>
   </li>
-  <li class="list-group-item">
+  <li class="list-group-item bg-light text-dark">
     <div class="d-flex justify-content-between">
       <h5 class="mb-1">WPEngine and Flywheel</h5>
       <span class="badge badge-pill badge-secondary p-2">11:00am</span>
@@ -172,7 +181,7 @@
     </div>
     <p class="mb-1">Free pizza for everyone!</p>
   </li>
-  <li class="list-group-item">
+  <li class="list-group-item bg-light text-dark">
     <div class="d-flex justify-content-between">
       <h5 class="mb-1">Creating Your Theme</h5>
       <span class="badge badge-pill badge-secondary p-2">1:00pm</span>
@@ -186,7 +195,7 @@
     </div>
     <p class="mb-1">Steven Stevenson</p>
   </li>
-  <li class="list-group-item">
+  <li class="list-group-item bg-light text-dark">
     <div class="d-flex justify-content-between">
       <h5 class="mb-1">Creating Great Content and Podcasts</h5>
       <span class="badge badge-pill badge-secondary p-2">3:00pm</span>
@@ -196,7 +205,7 @@
 </ul>
 <!-- /schedule -->
 <!-- callout button -->
-<button type="button" class="btn btn-secondary btn-lg d-block mx-auto my-5" data-toggle="modal" data-target="#register">Don't Miss Out, Register Now</button>
+<button type="button" class="btn btn-secondary btn-lg d-block mx-auto my-5 border border-warning" data-toggle="modal" data-target="#register">Don't Miss Out, Register Now</button>
 <!-- callout button -->
 <!-- signup form -->
 <hr>
